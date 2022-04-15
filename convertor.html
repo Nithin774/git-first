@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>convertor</title>
+    <style>
+     *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        width: 100%;
+        height: 50vh;
+        display: grid;
+        justify-content: center;
+        background-color: darkgray;
+    }
+
+    .from,.bin,.bu,.hex,.dec,.cal{
+        width: 200px;
+        background-color: burlywood;
+        padding: 30px;
+    }
+    .bin,.bu,.hex,.dec,.cal{
+        /* width: 150px; */
+        padding-top: 0pt;
+    }
+    button{
+        background-color: green;
+        color: azure;
+    }
+</style>
+</head>
+<body>
+<h2>Binary to Hex and Decimal converter</h2>
+<br>
+<div class="from">
+    <label>From</label>
+    <select>
+        <option>Binary</option>
+        <option>Hexadecimal</option>
+        <option>Decimal</option>
+    </select>
+    <br>
+    <br>
+    <label>To</label>
+    <select>
+        <option>Hexadecimal</option>
+        <option>Binary</option>
+        <option>Decimal</option>
+    </select>   
+</div>
+
+<div class="bin">
+    <label>Enter binary number</label>
+    <br>
+    <input type="text">
+</div>
+
+<div class="bu">
+    <button>= Convert</button>
+    <button>x Reset</button>
+</div>
+
+
+<div class="hex">
+    <label>Hex number</label>
+    <br>
+    <textarea rows="5"></textarea>
+</div>  
+
+
+<div class="dec">
+    <label>Decimal number</label>
+    <br>
+    <textarea rows="5"></textarea>
+</div> 
+
+
+<div class="cal">
+    <label>Calculation</label>
+    <br>
+    <textarea rows="5"></textarea>
+</div> 
+
+</body>
+</html>

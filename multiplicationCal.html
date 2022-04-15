@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multiCal</title>
+    <style>
+        *{
+           margin: 0;
+           padding: 0;
+       }
+       body{
+           width: 120%;
+           height: 50vh;
+           display: grid;
+           justify-content: center;
+           cursor: pointer;
+           font-family: sans-serif;
+           background-color: palevioletred;
+       }
+       .first, .second,.col, .bu, .cal, .res{
+           width: 150px;
+           background-color: burlywood;
+           padding: 30px;
+       }
+       .col,.second,.bu,.cal,.res{
+           padding-top: 0pc;
+       }
+       button{
+           background-color: aqua;
+       }
+       .col{
+           font-size: x-large;
+           justify-content: center;
+       }
+   </style>
+</head>
+<body>
+   <h2>Multiplication Calculator</h2>
+   <br>
+   <h4>Enter the 2 factors to multiply and press the calculate button:</h4>
+   <br>
+
+   <div class="first">
+       <p>First factor     <input type="number"></p>
+   </div>
+
+   <div class="col">X</div>
+   <div class="second">
+       <p>Second factor     <input type="number"></p>
+   </div>
+
+   <div class="bu">
+       <button>= Calculate</button>
+       <button>x Reset</button>
+   </div>
+
+   <div class="cal">
+       <p>Product <input type="text"></p>
+   </div>
+
+   <div class="res">
+       <p>Result</p>
+       <textarea rows="5"></textarea>
+   </div>  
+</body>
+</html>
